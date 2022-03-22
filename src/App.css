@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: monospace;
+  font-size: larger;
+  padding: 1.5vw;
+}
+
+.page-header {
+  display: flex;
+  justify-content: center;
+}
+
+.page-header h1 {
+  font-size: 4em;
+}
+
+.section-planets {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Mercúrio {
+  width: 4vw;
+}
+
+.Vênus {
+  width: 9vw;
+}
+
+.Terra {
+  width: 10vw;
+}
+
+.Marte {
+  width: 7vw;
+}
+
+.Júpiter {
+  width: 19vw;
+}
+
+.Saturno {
+  width: 17vw;
+}
+
+.Urano {
+  width: 13vw;
+}
+
+.Netuno {
+  width: 13vw;
+}
+
+.title-page {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 2em;
+  margin: 15px 0 40px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.section-missions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  justify-content: space-between;
+}
+
+.mission-card {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 16vw;
+}
+
+.section-header {
+  border-bottom: 1px solid white;
+  font-size: 1em;
+  padding: 0.5vw;
+}
+
+.section-data {
+  line-height: 1vw;
+  padding: 0.5vw;
+}
